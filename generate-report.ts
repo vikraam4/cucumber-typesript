@@ -23,7 +23,7 @@ const options: {
     "App Version": "1.0",
     "Test Environment": "STAGING",
     "Browser": "Chrome",
-    "Platform": "Windows 11",
+    "Platform": "MacOS",
     "Executed": "Local"
   }
 };

@@ -20,8 +20,7 @@ Then('I enter passoword as {string}', function (string) {
 Then('I select the country and city', function (dataTable) {
     const rows = dataTable.hashes();
 
-    console.log(rows[2].country);
-    console.log(rows[2].city);
+    console.log(rows);
 });
 
 Then('I click the login button', function () {
