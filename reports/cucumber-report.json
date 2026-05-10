@@ -1,0 +1,1138 @@
+[
+  {
+    "description": "As a user\nI want to log in to my account\nSo that I can access my dashboard",
+    "elements": [
+      {
+        "description": "",
+        "id": "login-feature;susccessful-login",
+        "keyword": "Scenario Outline",
+        "line": 23,
+        "name": "Susccessful Login",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 60625
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 7,
+            "name": "Navigate to Facebook page",
+            "match": {
+              "location": "features/step-definitions/login-steps.ts:4"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 45957
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 8,
+            "name": "I validate the page title",
+            "match": {
+              "location": "features/step-definitions/login-steps.ts:8"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 24665
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 11,
+            "name": "I enter username as \"testProduser\"",
+            "match": {
+              "location": "features/step-definitions/login-steps.ts:12"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 70749
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 12,
+            "name": "I enter passoword as \"testProdpassword\"",
+            "match": {
+              "location": "features/step-definitions/login-steps.ts:16"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 36999
+            }
+          },
+          {
+            "arguments": [
+              {
+                "rows": [
+                  {
+                    "cells": [
+                      "country",
+                      "city"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "India",
+                      "Hyderabad"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "USA",
+                      "NY"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "UK",
+                      "London"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "India",
+                      "Hyderabad"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "keyword": "And ",
+            "line": 13,
+            "name": "I select the country and city",
+            "match": {
+              "location": "features/step-definitions/login-steps.ts:20"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 78209
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 19,
+            "name": "I click the login button",
+            "match": {
+              "location": "features/step-definitions/login-steps.ts:27"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 23542
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 37666
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "login-feature;susccessful-login",
+        "keyword": "Scenario Outline",
+        "line": 24,
+        "name": "Susccessful Login",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 12833
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 7,
+            "name": "Navigate to Facebook page",
+            "match": {
+              "location": "features/step-definitions/login-steps.ts:4"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 18582
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 8,
+            "name": "I validate the page title",
+            "match": {
+              "location": "features/step-definitions/login-steps.ts:8"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 17500
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 11,
+            "name": "I enter username as \"testProduser1\"",
+            "match": {
+              "location": "features/step-definitions/login-steps.ts:12"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 16458
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 12,
+            "name": "I enter passoword as \"testProdpassword1\"",
+            "match": {
+              "location": "features/step-definitions/login-steps.ts:16"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 16750
+            }
+          },
+          {
+            "arguments": [
+              {
+                "rows": [
+                  {
+                    "cells": [
+                      "country",
+                      "city"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "India",
+                      "Hyderabad"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "USA",
+                      "NY"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "UK",
+                      "London"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "India",
+                      "Hyderabad"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "keyword": "And ",
+            "line": 13,
+            "name": "I select the country and city",
+            "match": {
+              "location": "features/step-definitions/login-steps.ts:20"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 28291
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 19,
+            "name": "I click the login button",
+            "match": {
+              "location": "features/step-definitions/login-steps.ts:27"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 18124
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 13500
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "login-feature;susccessful-login",
+        "keyword": "Scenario Outline",
+        "line": 25,
+        "name": "Susccessful Login",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 9916
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 7,
+            "name": "Navigate to Facebook page",
+            "match": {
+              "location": "features/step-definitions/login-steps.ts:4"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 13125
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 8,
+            "name": "I validate the page title",
+            "match": {
+              "location": "features/step-definitions/login-steps.ts:8"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 10750
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 11,
+            "name": "I enter username as \"testProduser2\"",
+            "match": {
+              "location": "features/step-definitions/login-steps.ts:12"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 23666
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 12,
+            "name": "I enter passoword as \"testProdpassword2\"",
+            "match": {
+              "location": "features/step-definitions/login-steps.ts:16"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 35249
+            }
+          },
+          {
+            "arguments": [
+              {
+                "rows": [
+                  {
+                    "cells": [
+                      "country",
+                      "city"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "India",
+                      "Hyderabad"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "USA",
+                      "NY"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "UK",
+                      "London"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "India",
+                      "Hyderabad"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "keyword": "And ",
+            "line": 13,
+            "name": "I select the country and city",
+            "match": {
+              "location": "features/step-definitions/login-steps.ts:20"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 44667
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 19,
+            "name": "I click the login button",
+            "match": {
+              "location": "features/step-definitions/login-steps.ts:27"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 17959
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 12208
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "login-feature;susccessful-login",
+        "keyword": "Scenario Outline",
+        "line": 26,
+        "name": "Susccessful Login",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 10124
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 7,
+            "name": "Navigate to Facebook page",
+            "match": {
+              "location": "features/step-definitions/login-steps.ts:4"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 14166
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 8,
+            "name": "I validate the page title",
+            "match": {
+              "location": "features/step-definitions/login-steps.ts:8"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 12541
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 11,
+            "name": "I enter username as \"testProduser3\"",
+            "match": {
+              "location": "features/step-definitions/login-steps.ts:12"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 22958
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 12,
+            "name": "I enter passoword as \"testProdpassword3\"",
+            "match": {
+              "location": "features/step-definitions/login-steps.ts:16"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 21583
+            }
+          },
+          {
+            "arguments": [
+              {
+                "rows": [
+                  {
+                    "cells": [
+                      "country",
+                      "city"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "India",
+                      "Hyderabad"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "USA",
+                      "NY"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "UK",
+                      "London"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "India",
+                      "Hyderabad"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "keyword": "And ",
+            "line": 13,
+            "name": "I select the country and city",
+            "match": {
+              "location": "features/step-definitions/login-steps.ts:20"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 19624
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 19,
+            "name": "I click the login button",
+            "match": {
+              "location": "features/step-definitions/login-steps.ts:27"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 9208
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 18332
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "login-feature;susccessful-login",
+        "keyword": "Scenario Outline",
+        "line": 27,
+        "name": "Susccessful Login",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 14167
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 7,
+            "name": "Navigate to Facebook page",
+            "match": {
+              "location": "features/step-definitions/login-steps.ts:4"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 9833
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 8,
+            "name": "I validate the page title",
+            "match": {
+              "location": "features/step-definitions/login-steps.ts:8"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 12999
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 11,
+            "name": "I enter username as \"testProduser4\"",
+            "match": {
+              "location": "features/step-definitions/login-steps.ts:12"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 19499
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 12,
+            "name": "I enter passoword as \"testProdpassword4\"",
+            "match": {
+              "location": "features/step-definitions/login-steps.ts:16"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 18082
+            }
+          },
+          {
+            "arguments": [
+              {
+                "rows": [
+                  {
+                    "cells": [
+                      "country",
+                      "city"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "India",
+                      "Hyderabad"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "USA",
+                      "NY"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "UK",
+                      "London"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "India",
+                      "Hyderabad"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "keyword": "And ",
+            "line": 13,
+            "name": "I select the country and city",
+            "match": {
+              "location": "features/step-definitions/login-steps.ts:20"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 16791
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 19,
+            "name": "I click the login button",
+            "match": {
+              "location": "features/step-definitions/login-steps.ts:27"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 10708
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 9208
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "login-feature",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "Login Feature",
+    "tags": [],
+    "uri": "features/login-parameters.feature"
+  },
+  {
+    "description": "As a user\nI want to log in to my account\nSo that I can access my dashboard",
+    "elements": [
+      {
+        "description": "",
+        "id": "login-prod-feature;susccessful-login-on-production",
+        "keyword": "Scenario",
+        "line": 10,
+        "name": "Susccessful Login on Production",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 12666
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 7,
+            "name": "Navigate to Facebook page",
+            "match": {
+              "location": "features/step-definitions/login-steps.ts:4"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 15291
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 8,
+            "name": "I validate the page title",
+            "match": {
+              "location": "features/step-definitions/login-steps.ts:8"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 9957
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 11,
+            "name": "I enter username as \"testProdUser\"",
+            "match": {
+              "location": "features/step-definitions/login-steps.ts:12"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 15832
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 12,
+            "name": "I enter passoword as \"testProdPassword\"",
+            "match": {
+              "location": "features/step-definitions/login-steps.ts:16"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 14749
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 13,
+            "name": "I click the login button",
+            "match": {
+              "location": "features/step-definitions/login-steps.ts:27"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 10709
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 14832
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "login-prod-feature;susccessful-login-on-production-with-different-credentials",
+        "keyword": "Scenario",
+        "line": 15,
+        "name": "Susccessful Login on Production with different credentials",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 8709
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 7,
+            "name": "Navigate to Facebook page",
+            "match": {
+              "location": "features/step-definitions/login-steps.ts:4"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 8582
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 8,
+            "name": "I validate the page title",
+            "match": {
+              "location": "features/step-definitions/login-steps.ts:8"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 8500
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 16,
+            "name": "I enter username as \"testProdUser1\"",
+            "match": {
+              "location": "features/step-definitions/login-steps.ts:12"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 14125
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 17,
+            "name": "I enter passoword as \"testProdPassword1\"",
+            "match": {
+              "location": "features/step-definitions/login-steps.ts:16"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 14250
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 18,
+            "name": "I click the login button",
+            "match": {
+              "location": "features/step-definitions/login-steps.ts:27"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 8708
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 6416
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "login-prod-feature",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "Login Prod Feature",
+    "tags": [],
+    "uri": "features/login-prod.feature"
+  },
+  {
+    "description": "As a user\nI want to log in to my account\nSo that I can access my dashboard",
+    "elements": [
+      {
+        "description": "",
+        "id": "login-feature;susccessful-login",
+        "keyword": "Scenario",
+        "line": 12,
+        "name": "Susccessful Login",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 6957
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 8,
+            "name": "Navigate to Facebook page",
+            "match": {
+              "location": "features/step-definitions/login-steps.ts:4"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 8667
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 9,
+            "name": "I validate the page title",
+            "match": {
+              "location": "features/step-definitions/login-steps.ts:8"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 9584
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 13,
+            "name": "I enter username as \"testUser\"",
+            "match": {
+              "location": "features/step-definitions/login-steps.ts:12"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 14708
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 14,
+            "name": "I enter passoword as \"testPassword\"",
+            "match": {
+              "location": "features/step-definitions/login-steps.ts:16"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 14624
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 15,
+            "name": "I click the login button",
+            "match": {
+              "location": "features/step-definitions/login-steps.ts:27"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 8332
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 17749
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@smoke",
+            "line": 1
+          },
+          {
+            "name": "@login",
+            "line": 1
+          },
+          {
+            "name": "@positive",
+            "line": 11
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "login-feature;susccessful-login-with-different-credentials",
+        "keyword": "Scenario",
+        "line": 18,
+        "name": "Susccessful Login with different credentials",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 6875
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 8,
+            "name": "Navigate to Facebook page",
+            "match": {
+              "location": "features/step-definitions/login-steps.ts:4"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 10290
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 9,
+            "name": "I validate the page title",
+            "match": {
+              "location": "features/step-definitions/login-steps.ts:8"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 7207
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 19,
+            "name": "I enter username as \"testUser1\"",
+            "match": {
+              "location": "features/step-definitions/login-steps.ts:12"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 18416
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 20,
+            "name": "I enter passoword as \"testPassword1\"",
+            "match": {
+              "location": "features/step-definitions/login-steps.ts:16"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 16957
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 21,
+            "name": "I click the login button",
+            "match": {
+              "location": "features/step-definitions/login-steps.ts:27"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 8040
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 7791
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@smoke",
+            "line": 1
+          },
+          {
+            "name": "@login",
+            "line": 1
+          },
+          {
+            "name": "@regression",
+            "line": 17
+          }
+        ],
+        "type": "scenario"
+      }
+    ],
+    "id": "login-feature",
+    "line": 2,
+    "keyword": "Feature",
+    "name": "Login Feature",
+    "tags": [
+      {
+        "name": "@smoke",
+        "line": 1
+      },
+      {
+        "name": "@login",
+        "line": 1
+      }
+    ],
+    "uri": "features/login.feature"
+  }
+]
